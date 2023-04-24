@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
   font-family: "Open Sans", sans-serif;
 }
 a:link {
@@ -21,24 +20,23 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #1e2ab2;
+  background-color: #b64a8c;
 }
-.header {
+#header {
   background-color: #b50772;
   padding: 10px;
   width: 100%;
   height: 100px;
-  top: 0;
-  position: static;
-  z-index: auto;
-}
-h1.title {
-  color: orange;
   text-align: center;
   text-decoration: 10px solid black;
   font-size: 50px;
   font-weight: 900;
   text-shadow: 2px 2px 5px #1470cd;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.2s;
+  color: orange;
 }
 .question-boxes {
   background-color: #1470cd;
@@ -48,9 +46,9 @@ h1.title {
   width: 80%;
   height: 300px;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 150px;
   padding: 30px 30px 40px 30px;
-  position: relative;
+  position: static;
   -webkit-box-shadow: 5px 5px 15px 5px #000000;
   box-shadow: 5px 5px 15px 5px #000000;
 }
@@ -93,7 +91,7 @@ button {
 .category {
   width: 90%;
   height: auto;
-  position: absolute;
+  position: static;
   bottom: 40px;
   left: 40px;
 }
@@ -104,7 +102,7 @@ button {
   display: inline;
   padding: 10px;
   margin-right: 10px;
-  background-color: rgb(125, 2, 78);
+  background-color: #7d024e;
   border-width: 2px;
   border-style: outset;
   border-radius: 6px;
@@ -115,7 +113,7 @@ button {
 footer {
   background-color: #b50772;
   width: 100%;
-  height: 50px;
+  height: 60px;
   position: sticky;
   margin-top: 10px;
   bottom: 0;
@@ -129,4 +127,8 @@ footer {
   background-color: #1470cd;
   border-style: solid;
   border-radius: 100%;
+}
+section.home {
+  margin-top: 200px;
+  padding: 15px 15px 2500px;
 }
