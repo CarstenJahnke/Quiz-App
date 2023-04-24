@@ -4,7 +4,21 @@
   padding: 0px;
   font-family: "Open Sans", sans-serif;
 }
+a:link {
+  text-decoration: none;
+}
 
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
 body {
   background-image: url("../background.jpg");
   background-size: cover;
@@ -16,7 +30,10 @@ body {
   background-color: #b50772;
   padding: 10px;
   width: 100%;
-  height: 100%;
+  height: 100px;
+  top: 0;
+  position: static;
+  z-index: auto;
 }
 h1.title {
   text-align: center;
@@ -24,7 +41,7 @@ h1.title {
   font-weight: 900;
 }
 .question-boxes {
-  background-color: rgb(20, 112, 205);
+  background-color: #1470cd;
   background: ;
   border: 2px solid b50772;
   border-radius: 50px;
@@ -82,4 +99,22 @@ button {
   border-style: outset;
   border-radius: 6px;
   text-transform: lowercase;
+}
+footer {
+  background-color: #b50772;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  margin-top: 10px;
+  bottom: 0;
+}
+.footer-nav_list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.footer-img:hover {
+  background-color: #1470cd;
+  border-style: solid;
+  border-radius: 100%;
 }
