@@ -3,6 +3,9 @@
 }
 
 body {
-  background-image: url("/background.jpg");
-  background-color: #cccccc;
+  background-image: url("../background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #858585;
 }
