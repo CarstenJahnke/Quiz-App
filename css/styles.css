@@ -7,15 +7,12 @@
 a:link {
   text-decoration: none;
 }
-
 a:visited {
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: none;
 }
-
 a:active {
   text-decoration: none;
 }
@@ -36,9 +33,12 @@ body {
   z-index: auto;
 }
 h1.title {
+  color: orange;
   text-align: center;
+  text-decoration: 10px solid black;
   font-size: 50px;
   font-weight: 900;
+  text-shadow: 2px 2px 5px #1470cd;
 }
 .question-boxes {
   background-color: #1470cd;
@@ -51,16 +51,26 @@ h1.title {
   margin-top: 40px;
   padding: 30px 30px 40px 30px;
   position: relative;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
 }
 h3.question-card-title {
+  color: orange;
+  text-align: center;
+  text-decoration: 10px solid black;
+  font-size: 30px;
+  font-weight: 600;
+  text-shadow: 2px 2px 5px black;
   padding-left: 10px;
+  text-align: center;
   margin-top: 10px;
-  font-size: large;
 }
 .questions {
   padding-left: 10px;
   margin-top: 10px;
+  text-align: center;
   font-size: large;
+  font-weight: 900;
 }
 button {
   background-color: orange;
@@ -99,6 +109,8 @@ button {
   border-style: outset;
   border-radius: 6px;
   text-transform: lowercase;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
 }
 footer {
   background-color: #b50772;
