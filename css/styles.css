@@ -1,7 +1,134 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
-
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
 body {
-  background-color: rgb(255, 255, 255);
+  background-image: url("../background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #b64a8c;
+}
+#header {
+  background-color: #b50772;
+  padding: 10px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  text-decoration: 10px solid black;
+  font-size: 50px;
+  font-weight: 900;
+  text-shadow: 2px 2px 5px #1470cd;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.2s;
+  color: orange;
+}
+.question-boxes {
+  background-color: #1470cd;
+  background: ;
+  border: 4px solid #b50772;
+  border-radius: 50px;
+  width: 80%;
+  height: 320px;
+  margin: auto;
+  margin-top: 150px;
+  padding: 30px 30px 40px 30px;
+  position: static;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+h3.question-card-title {
+  color: orange;
+  text-align: center;
+  text-decoration: 10px solid black;
+  font-size: 30px;
+  font-weight: 600;
+  text-shadow: 2px 2px 5px black;
+  padding-left: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+.questions {
+  padding-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: large;
+  font-weight: 900;
+}
+button {
+  background-color: orange;
+  border-width: 4px;
+  border-style: outset;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: larger;
+  font-weight: 700;
+  margin: auto;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.button-answer:hover {
+  background-color: #b50772;
+  border-style: inset;
+}
+.category {
+  width: 90%;
+  height: auto;
+  position: static;
+  bottom: 40px;
+  left: 40px;
+}
+.category p {
+  font-size: 12px;
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+  display: inline;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #7d024e;
+  border-width: 2px;
+  border-style: outset;
+  border-radius: 6px;
+  text-transform: lowercase;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+footer {
+  background-color: #b50772;
+  width: 100%;
+  height: 60px;
+  position: sticky;
+  margin-top: 10px;
+  bottom: 0;
+}
+.footer-nav_list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.footer-img:hover {
+  background-color: #1470cd;
+  border-style: solid;
+  border-radius: 100%;
+}
+section.home {
+  margin-top: 200px;
+  padding: 15px 15px 2500px;
 }
